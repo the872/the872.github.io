@@ -11,15 +11,15 @@ body {
   margin: auto;
 }
 .loader span {
-  width: 500px;
-  height: 150000px;
-  background-color: white;
+  width: 25px;
+  height: 5000px;
+  background-color: black;
   position: absolute;
   left: 0;
   transform-origin: center;
-  transform: rotate(-90deg);
+  transform: rotate(-120deg);
   animation-name: load;
-  animation-duration: 15s;
+  animation-duration: 6s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
@@ -2054,10 +2054,10 @@ body {
 .loader2 span {
   width: 2px;
   height: 1000px;
-  background-color: blue;
+  background-color: white;
   position: absolute;
   left: 0;
-  transform-origin: center bottom;
+  transform-origin: center;
   transform: rotate(-90deg);
   animation-name: load;
   animation-duration: 3s;
