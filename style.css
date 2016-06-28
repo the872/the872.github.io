@@ -4214,7 +4214,7 @@ body {
   top: 30px;
 }
 .clock .minute {
-  width: 1px;
+  width: 2px;
   height: 100%;
   position: absolute;
   left: 0;
@@ -4227,11 +4227,11 @@ body {
   content: "";
   background: #262626;
   height: 40px;
-  width: 1px;
+  width: 2px;
   top: 50px;
 }
 .clock .second {
-  width: 2px;
+  width: 1px;
   height: 100%;
   position: absolute;
   left: 0;
